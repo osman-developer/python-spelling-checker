@@ -1,6 +1,6 @@
 from textblob import TextBlob
 
-myList = ["Incorret","spellin"]
+myList = ["Incorret","spellen"]
 corrected_list=[]
 
 for word in myList:
@@ -9,5 +9,4 @@ for word in myList:
 print("corrected list words are:")
 
 for word in corrected_list:
-	print(word.correct(), end=" ")
-		
+	print(word.correct(), end=" ")	
